@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="relative w-full h-screen">
             {/* Background Video */}
             <video
-                className="absolute inset-0 w-full h-full object-cover"
+                className="absolute inset-0 w-full h-full object-cover -translate-y-10"
                 src={bgVideo}
                 autoPlay
                 loop
@@ -42,7 +42,6 @@ const Hero = () => {
                                 <span>Pay</span>
                                 <FaRegCircleRight className="text-lg" />
                             </button>
-
                         </div>
                     </div>
                 </div>

@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="relative w-80 h-80 bg-white/30 backdrop-blur-md rounded-xl shadow-lg">
           {/* Card Image */}
           <img
-            src="/Images/video.mp4"
+            src="/Images/card.png"
             alt="Card"
             className="absolute inset-0 w-full h-full object-cover rounded-xl"
           />

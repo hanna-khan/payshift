@@ -25,7 +25,7 @@ const CardSection = () => {
     >
       <div className="absolute inset-0"></div>
 
-      <div className="relative z-10 container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-10">
+      <div className="relative z-10 container mx-auto grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-6 sm:gap-3 gap-6 py-10">
         {cards.map((card, index) => (
           <div
             key={index}

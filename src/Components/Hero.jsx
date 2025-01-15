@@ -30,15 +30,15 @@ const Hero = () => {
 
           {/* Text & Button */}
           <div className="relative flex flex-col items-center justify-center h-full text-center">
-            <h1 className="text-gray-200 text-3xl leading-9 tracking-wider font-medium">
+            <h1 className="text-white text-3xl leading-9 tracking-wider font-medium">
               Pay <span className="text-black">Now</span>
               <br />
               <span className="text-black">With</span> PayShift
             </h1>
             <div>
-              <button className="flex items-center justify-center space-x-2 mt-4 px-6 py-2 bg-black text-white font-medium rounded-full hover:bg-gray-800">
-                <span>Pay</span>
-                <FaRegCircleRight className="text-lg" />
+              <button className="flex items-center justify-center space-x-2 mt-4 px-3 py-2 bg-black text-white font-medium rounded-full hover:bg-gray-800">
+                <span className="pl-6 pr-4 text-xl">Pay</span>
+                <FaRegCircleRight className="text-3xl" />
               </button>
             </div>
           </div>

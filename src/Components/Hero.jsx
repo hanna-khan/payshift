@@ -1,6 +1,5 @@
 import React from "react";
-import cardImage from "../Images/card.png";
-import bgVideo from "../Images/video.mp4";
+import Image from "next/image"; // Import Next.js Image component
 import { FaRegCircleRight } from "react-icons/fa6";
 
 const Hero = () => {
@@ -9,7 +8,7 @@ const Hero = () => {
             {/* Background Video */}
             <video
                 className="absolute inset-0 w-full h-full object-cover"
-                src={bgVideo}
+                src="/videos/video.mp4" // Path relative to the public directory
                 autoPlay
                 loop
                 muted
@@ -21,10 +20,11 @@ const Hero = () => {
                 {/* Card */}
                 <div className="relative w-80 h-80 bg-white/30 backdrop-blur-md rounded-xl shadow-lg">
                     {/* Card Image */}
-                    <img
-                        src={cardImage}
-                        alt="Card"
-                        className="absolute inset-0 w-full h-full object-cover rounded-xl"
+                    <Image
+                     src="./card.png"
+                     width={500}
+                     height={500}
+                     alt="Picture of the author"
                     />
 
                     {/* Overlay */}

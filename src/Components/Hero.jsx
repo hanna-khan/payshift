@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="relative w-full h-screen">
             {/* Background Video */}
             <video
-                className="absolute inset-0 w-full h-full object-cover -translate-y-10"
+                className="absolute inset-0 w-full h-full object-cover"
                 src={bgVideo}
                 autoPlay
                 loop
@@ -32,7 +32,7 @@ const Hero = () => {
 
                     {/* Text & Button */}
                     <div className="relative flex flex-col items-center justify-center h-full text-center">
-                        <h1 className="text-white text-3xl leading-9 tracking-wider font-medium">
+                        <h1 className="text-gray-200 text-3xl leading-9 tracking-wider font-medium">
                             Pay <span className="text-black">Now</span>
                             <br />
                             <span className="text-black">With</span> PayShift
